@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    background-color: rgb(4, 140, 140);
+    padding-top: 1rem;
+}
+#select{
+    background-color: rgb(25, 255, 48);
+    border-radius: .3rem;
+    padding: .2rem .7rem .2rem .3rem;
+    font-size: 1rem;
+    color: whitesmoke;
+    /* font-weight: 700; */
+    /* background-color: black; */
+}
+.section1{
+    /* padding: 3rem 10rem; */
+    background-color: rgb(54, 78, 239);
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px;
+}
+.mainDiv{
+    margin: 0rem 10rem;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    background-color: rgb(4, 170, 170);
+
+    border-radius: 1rem;
+}
+.img{
+    width: 15rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.image{
+    width: 15rem;
+}
+.firstD{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+}
+.firstD p{
+    padding: .7rem 2rem;
+    font-size: 1.1rem;
+    /* color: whitesmoke; */
+}
+.secondD{
+    padding: 2rem;
+    background-color: rgb(142, 142, 239);
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: .3rem;
+}
+.section2{
+    padding: 0rem 10rem;
+    background-color: rgb(131, 131, 239);
+    box-shadow: 2px 2px 2px 2px;
+}
+h2{
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+p{
+    padding: .3rem 4rem;
+    font-size: 1.1rem;
+    /* color: rgb(13, 13, 13); */
+}
+footer{
+    background-color: red;
+    height: 2.5rem;
+    box-shadow: 2px 2px 2px 2px;
+}
